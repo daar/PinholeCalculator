@@ -29,8 +29,8 @@ public class DevelopTimerFragment extends Fragment implements OnClickListener,
         View rootView = inflater.inflate(R.layout.fragment_develop_timer, container, false);
          
 		//attach callbacks
-        btnStartTimer = (Button) this.findViewById(R.id.btnStartTimer);
-        btnStartTimer.setOnClickListener(this);
+        //btnStartTimer = (Button) this.findViewById(R.id.btnStartTimer);
+        //btnStartTimer.setOnClickListener(this);
         
         return rootView;
     }
